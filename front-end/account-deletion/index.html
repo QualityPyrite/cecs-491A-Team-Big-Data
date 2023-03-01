@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <title>Online HTML Editor</title>
+
+  <head>
+    <h1>
+      Account Settings
+    </h1>
+  </head>
+
+  <body>
+    <h2>Account Deletion</h2>
+    <div><Button type="button" id="delAcc">Delete Account</Button></div>
+  </body>
+
+  <dialog id="deleteForm">
+    <form method="dialog">
+      <h3>Account Deletion Confirmation</h3>
+      <div><label for="Name">Are you certain you wish to delete your account? This includes all personally identifying data.</label></div>
+
+      <input type="checkbox" id="consent" name="consent">
+      <label for="Name">I wish to delete my account</label>
+      <div><Button type="button" id="confirm" disabled>Delete it</Button>
+        <Button type="button" id="deny">No, don't delete it</Button></div>
+    </form>
+  </dialog>
+
+</html>
